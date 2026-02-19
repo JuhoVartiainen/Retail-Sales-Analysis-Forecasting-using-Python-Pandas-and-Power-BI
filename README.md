@@ -10,6 +10,8 @@ This repository contains an ongoing data analysis project focused on understandi
 ### The 20% Discount Tipping Point
 - Our analysis shows a direct negative correlation between discounts and profitability. Transactions with discounts exceeding 20% are statistically likely to result in a net loss.
 
+![Discount vs Profit margin](outputs/Discount_vs_Profit_margin.png)
+
 ### Strategic Recommendations
 - **Pricing:** Require managerial approval for any discounts exceeding 20%.
 - **Inventory Focus:** Prioritize **Technology** and **Office Supplies**, which show significantly higher margin efficiency than Furniture.
