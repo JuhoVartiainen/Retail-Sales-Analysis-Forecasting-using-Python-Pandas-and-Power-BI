@@ -1,16 +1,17 @@
-# Sales & Profitability Analysis (Work in Progress)
+# Sales & Profitability Analysis 
 
 **Dataset:** This analysis utilizes the [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) from Kaggle, which provides comprehensive data on sales, profits, and customer segments.
 
-This repository contains an ongoing data analysis project focused on understanding sales performance and profitability drivers. The analysis is performed using Python, Pandas and statsmodels on a retail dataset.
+This repository contains a data analysis project focused on understanding sales performance and profitability drivers. The analysis is performed using Python, Pandas and statsmodels on a retail dataset.
 
 
-## Key Business insights
+## Key Business Insights / Results
 
 ### The 20% Discount Tipping Point
-- Our analysis shows a direct negative correlation between discounts and profitability. Transactions with discounts exceeding 20% are statistically likely to result in a net loss.
+- Our analysis shows a direct negative correlation between discounts and profitability. Transactions with discounts exceeding 20% are statistically likely to result in a net loss. (See the jitter plot below)
 
-![Discount vs Profit margin](outputs/Discount_vs_Profit_margin.png)
+![Discount vs Profit margin](outputs/Discount_vs_Profit_margin_jitter.png)
+
 
 ### Strategic Recommendations
 - **Pricing:** Require managerial approval for any discounts exceeding 20%.
@@ -22,30 +23,27 @@ This repository contains an ongoing data analysis project focused on understandi
 The goal of this project is to identify which product categories, customer segments, and regional markets contribute most to the company's bottom line, as well as to evaluate the impact of discounting strategies.
 
 
-## Current Progress
+### 1. Regional Analysis
+Analyze profitability and sales across different geographical regions.
+- Identifying the most profitable states while marking states with negative profit with red color. 
 
-### 1. Product & Category Profitability (In progress)
+![Regional Profitability](outputs/Regional_profitability.png)
+
+
+### 2. Customer Segments & Category Profitability
+Investigating how sales and profits are distributed across different customer segments (Consumer, Corporate, Home office).
 Analyze which products and categories generate the highest sales and profit.
 - Sorting sub-categories by profit within each parent category to identify top performers and loss-makers.
 
-### 2. Customer Segments & Regional Analysis (Planned)
-Investigating how sales and profits are distributed across different customer segments (Consumer, Corporate, Home office) and geographical regions.
-- Customer segment percentages
-- Identifying the most profitable countries.
+![Product Performance](outputs/Product_performance.png)
 
-### 3. Discount Impact Analysis (Completed)
+
+### 3. Discount Impact Analysis
 Evaluating whether discounting strategies increase or decrease profit
-- Effect of discount on product volume and profit
+- Effect of discount on profit margin
 
-## Tech Stack
-- **Python** 3.12.6
-- **Libraries:** Pandas (Data manipulation), Matplotlib / Seaborn (visualization), statsmodels (statistical modeling)
-- **Environment:** Jupyter Notebook
+![Discount vs Profit margin](outputs/Discount_vs_Profit_margin_jitter.png)
 
-## How to use (In progress)
-
-
-## Results (In progress)
 
 ### Linear regression: Factors Driving Profit Margin
 
@@ -57,4 +55,9 @@ Performed a Multiple Linear Regression (OLS) to identify key drivers of profitab
 
 - **Statistical Discovery:** Order quantity does not have a statistically significant impact on the profit margin (p = 0.735), suggesting that scaling volume doesn't fix poor pricing strategies.
 
-### 
+
+## Tech Stack
+- **Python** 3.12.6
+- **Libraries:** Pandas (Data manipulation), Matplotlib / Seaborn (visualization), statsmodels (statistical modeling)
+- **Power BI** (Interactive dashboard, Geospatial Analysis, DAX) 
+- **Environment:** Jupyter Notebook
