@@ -10,7 +10,7 @@ This repository contains a data analysis project focused on understanding sales 
 ### The 20% Discount Tipping Point
 - Our analysis shows a direct negative correlation between discounts and profitability. Transactions with discounts exceeding 20% are statistically likely to result in a net loss. (See the jitter plot below)
 
-![Discount vs Profit margin](images/Discount_vs_Profit_margin_jitter.png)
+![Discount vs Profit margin](images/Discount_vs_profit_margin_jitter.png)
 
 
 ### Strategic Recommendations
@@ -42,7 +42,7 @@ Analyze which products and categories generate the highest sales and profit.
 Evaluating whether discounting strategies increase or decrease profit
 - Effect of discount on profit margin
 
-![Discount vs Profit margin](images/Discount_vs_Profit_margin_jitter.png)
+![Discount vs Profit margin](images/Discount_vs_profit_margin_jitter.png)
 
 
 ### Linear regression: Factors Driving Profit Margin
