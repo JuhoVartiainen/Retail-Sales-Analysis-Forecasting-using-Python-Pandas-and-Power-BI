@@ -10,7 +10,7 @@ This repository contains a data analysis project focused on understanding sales 
 ### The 20% Discount Tipping Point
 - Our analysis shows a direct negative correlation between discounts and profitability. Transactions with discounts exceeding 20% are statistically likely to result in a net loss. (See the jitter plot below)
 
-![Discount vs Profit margin](outputs/Discount_vs_Profit_margin_jitter.png)
+![Discount vs Profit margin](images/Discount_vs_Profit_margin_jitter.png)
 
 
 ### Strategic Recommendations
@@ -27,7 +27,7 @@ The goal of this project is to identify which product categories, customer segme
 Analyze profitability and sales across different geographical regions.
 - Identifying the most profitable states while marking states with negative profit with red color. 
 
-![Regional Profitability](outputs/Regional_profitability.png)
+![Regional Profitability](images/Regional_profitability.png)
 
 
 ### 2. Customer Segments & Category Profitability
@@ -35,14 +35,14 @@ Investigating how sales and profits are distributed across different customer se
 Analyze which products and categories generate the highest sales and profit.
 - Sorting sub-categories by profit within each parent category to identify top performers and loss-makers.
 
-![Product Performance](outputs/Product_performance.png)
+![Product Performance](images/Product_performance.png)
 
 
 ### 3. Discount Impact Analysis
 Evaluating whether discounting strategies increase or decrease profit
 - Effect of discount on profit margin
 
-![Discount vs Profit margin](outputs/Discount_vs_Profit_margin_jitter.png)
+![Discount vs Profit margin](images/Discount_vs_Profit_margin_jitter.png)
 
 
 ### Linear regression: Factors Driving Profit Margin
